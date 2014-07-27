@@ -1,4 +1,4 @@
- if(!file.exists("~/Coursera/GettingData/")){dir.create("~/Coursera/GettingData/")}
+ if(!file.exists("~/Coursera/GettingData/")){dir.create("~/Coursera/GettingData/")}  
  fileUrl<-"http://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip"
  download.file(fileUrl,destfile="~/Coursera/GettingData/dataset.zip")
  setwd("~/Coursera/GettingData")
